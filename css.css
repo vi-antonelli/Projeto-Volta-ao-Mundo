@@ -1,0 +1,18 @@
+#banner {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+        }
+#corpo {
+    padding: 20px;
+        }
+#rodape {
+    background-color: #431919;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+        }
