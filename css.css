@@ -19,12 +19,20 @@
     width: 100%;
         }
 .carousel-container {
-    width: 600px; /* Defina a largura desejada do carrossel */
-    height: 400px; /* Defina a altura desejada do carrossel */
+    width: 100%; 
+    height: 400px;
           }
 .carousel-item img {
-            /* Ajuste as dimensões das imagens do carrossel conforme necessário */
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* Garante que a imagem cubra todo o espaço designado */
+    height: 325px;
+    object-fit: cover;
           }
+#imagemHome {
+    
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: right ;
+    padding: 20px;
+
+}

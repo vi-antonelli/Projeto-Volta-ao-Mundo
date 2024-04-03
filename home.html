@@ -12,38 +12,62 @@
     <div id="banner">
         <h1>Bem-vindo ao Site sobre a Índia</h1>
     </div>
-    <div id="SlidesCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="imagens/Culinaria.png" class="d-block w-100" alt="Imagem 1">
+        <div class="container-fluid" width="100%">
+            <div class="row">
+              <div class="col-15">
+                <div id="meuCarrossel" class="carousel slide carousel-container" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="imagens/Culinaria.png" class="d-block w-100" alt="Imagem 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="imagens/Hinduismo.png" class="d-block w-100" alt="Imagem 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="imagens/Populacao.png" class="d-block w-100" alt="Imagem 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/Tutistico1.png" class="d-block w-100" alt="Imagem 4">
+                      </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#meuCarrossel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                  </a>
+                  <a class="carousel-control-next" href="#meuCarrossel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="carousel-item">
-                <img src="imagens/Hinduismo.png" class="d-block w-100" alt="Imagem 2">
-            </div>
-            <div class="carousel-item">
-                <img src="imagens/Populacao.png" class="d-block w-100" alt="Imagem 3">
-            </div>
-            <div class="carousel-item">
-                <img src="imagens/Tutistico1.png" class="d-block w-100" alt="Imagem 4">
-            </div>
+          </div>
+<div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="btn-default" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary btn-lg">Culinária</button>
+          <button type="button" class="btn btn-secondary btn-lg">Cultura</button>
+          <button type="button" class="btn btn-secondary btn-lg">População</button>
+          <button type="button" class="btn btn-secondary btn-lg">Turismo</button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#SlidesCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#SlidesCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Próximo</span>
-        </button>
+      </div>
     </div>
+</div>
+
 
     <div id="corpo">
         <h2>Sobre a Índia</h2>
+        <div id="imagemHome">
+            <img src="imagens/BandeiraFundoBonito.jpg" alt="Bandeira">
+        </div>
     </div>
     
     <div id="rodape">
         <p>&copy; 2024 Site sobre a Índia - Fatec DSM 3° Semestre</p>
-    
     </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
