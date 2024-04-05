@@ -1,5 +1,5 @@
 #banner {
-    background-color:hsla(27, 90%, 45%, 0.961);
+    background: linear-gradient(90deg, rgba(255,87,10,1) 0%, rgba(247,145,0,1) 36%, rgba(3,225,51,1) 100%);
     color: #fff;
     padding-top: 25px;
     text-align: center;
@@ -11,7 +11,7 @@
     color: #fff;
     padding: 15px;
     text-align: center;
-    position: fixed;
+    position:static;
     bottom: 0;
     width: 100%;
         }
@@ -21,7 +21,7 @@
           }
 .carousel-item img {
     width: 100%;
-    height: 325px;
+    height: 380px;
     object-fit: cover;
           }
 #imagemHome {
@@ -32,3 +32,33 @@
     align-items: right ;
     padding: 20px;
 }
+
+.botoes{  
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding-top: 1%;
+    background-color: linear-gradient(90deg, rgba(255,87,10,1) 0%, rgba(255,255,240,1) 50%, rgba(3,225,51,1) 100%);
+}
+
+.texto-home {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 16px; 
+    line-height: 1.4; 
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+.texto-home-titulo {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 24px; 
+    line-height: 1.4; 
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+.div-texto-img{
+    padding-top: 5%;
+}
+
