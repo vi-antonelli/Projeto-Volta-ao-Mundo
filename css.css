@@ -6,9 +6,6 @@
     width: 100%;
 
         }
-#corpo {
-    padding: 20px;
-        }
 #rodape {
     background-color: hsla(124, 93%, 35%, 0.961);
     color: #fff;
@@ -34,5 +31,4 @@
     justify-content: flex-start;
     align-items: right ;
     padding: 20px;
-
 }
