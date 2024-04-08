@@ -4,6 +4,7 @@
     padding-top: 25px;
     text-align: center;
     width: 100%;
+    
 
         }
 #rodape {
@@ -31,6 +32,7 @@
     justify-content: flex-start;
     align-items: right ;
     padding: 20px;
+    border-radius: 10px; /* Arredonda as bordas */
 }
 
 .botoes{  
@@ -48,6 +50,11 @@
     line-height: 1.4; 
     color: #333; 
     margin-bottom: 20px;
+    background-color: white; /*Cor do fundo do texto */
+    padding: 20px;
+    margin: 50px; /*Ajuste conforme necessário */
+    border-radius: 10px; /*Arredonda as bordas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .texto-home-titulo {
@@ -56,6 +63,10 @@
     line-height: 1.4; 
     color: #333; 
     margin-bottom: 20px;
+    color:#fff; 
+    display: flex; /* Ativa o flex container */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
 }
 
 .div-texto-img{
@@ -63,7 +74,20 @@
 }
 
 .fundo-home{
-    background: linear-gradient(90deg, rgba(255,87,10,1) 0%, rgba(247,145,0,1) 43%, rgba(3,225,51,1) 100%);
-    
+    background: linear-gradient(90deg, rgba(255,87,10,1) 0%, rgba(247,145,0,1) 43%, rgba(3,225,51,1) 100%);    
+}
+
+.texto-container {
+    background-color: white; /* Cor do fundo do texto */
+    padding: 20px;
+    margin: 50px; /* Ajuste conforme necessário */
+    border-radius: 10px; /* Arredonda as bordas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-white{
+
+    color:#fff;
+
 }
 
