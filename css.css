@@ -1,5 +1,5 @@
 #banner {
-    background: linear-gradient(90deg, rgba(255,87,10,1) 0%, rgba(247,145,0,1) 36%, rgba(3,225,51,1) 100%);
+    background: #ff8d0a;
     color: #fff;
     padding-top: 25px;
     text-align: center;
@@ -60,5 +60,10 @@
 
 .div-texto-img{
     padding-top: 5%;
+}
+
+.fundo-home{
+    background: linear-gradient(90deg, rgba(255,87,10,1) 0%, rgba(247,145,0,1) 43%, rgba(3,225,51,1) 100%);
+    
 }
 
