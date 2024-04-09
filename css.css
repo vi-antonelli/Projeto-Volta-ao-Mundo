@@ -4,6 +4,7 @@
     padding-top: 25px;
     text-align: center;
     width: 100%;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     
 
         }
@@ -32,7 +33,7 @@
     justify-content: flex-start;
     align-items: right ;
     padding: 20px;
-    border-radius: 10px; /* Arredonda as bordas */
+    border-radius: 06%; /* Arredonda as bordas */
 }
 
 .botoes{  
@@ -84,10 +85,7 @@
     border-radius: 10px; /* Arredonda as bordas */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
 }
-
-.btn-white{
-
-    color:#fff;
-
+.fundo-culinaria{
+    background-image: url(imagens/Culinaria.png);
 }
 
